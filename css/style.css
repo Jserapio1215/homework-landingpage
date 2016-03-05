@@ -50,7 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-           background-size: cover;
+      background-size: cover;
 }
 
 
@@ -64,9 +64,27 @@ body {
   margin: auto;
   height: 500px;
  }
+ .header h2 {
+  text-align: center;
+ }
+ .header a {
+  text-align: center;
+  width: 100px;
+  color: #033048;
+  text-decoration: none;
+  border: 5px solid #f9e42e;
+  background-color: #f9e42e;
+  font-style: 
+  }
 
 header {
-  background: url(../images/header_bg.jpg)
+  background: url(../images/header_bg.jpg);
+  color: #ffffff;
+  font-size: 24px;
+  height: 600px;
+}
+header h3 {
+  clear: both;
 }
 
 .benefits {
@@ -80,6 +98,7 @@ blockquote {
 h3 {
   background-color: #f9e42e;
   color: #ffffff;
+
 }
 footer {
   background-color: #121212;
