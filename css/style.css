@@ -60,7 +60,7 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: auto;
   height: 500px;
   margin: 5px;
  }
@@ -115,9 +115,10 @@ header {
 }
 .benefits ul {
   padding-top: 20px;
-  padding-left: 30px;
+  padding-left: 100px;
   font-size: 13px;
   font-weight: 300;
+  list-style-type: disc;
 }
 
 blockquote {
