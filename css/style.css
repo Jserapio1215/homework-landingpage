@@ -75,7 +75,9 @@ body {
   font-weight: 600;
   padding-top: 150px;
  }
- .header p {
+ .header a {
+  display: block;
+  text-decoration: none;
   border: 5px solid #f9e42e;
   text-align: center;
   border-radius: 5px;
@@ -91,6 +93,7 @@ body {
 
 header {
   background: url(../images/header_bg.jpg);
+  background-size: cover;
   color: #ffffff;
   height: 600px;
  }
@@ -123,6 +126,7 @@ header {
 
 blockquote {
   background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
   color: #ffffff;
   height: 250px;
   text-align: center;
@@ -145,7 +149,10 @@ blockquote {
   color: #ffffff;
   padding: 10px 525px;
   }
-.sign h3 {
+.sign a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
   border: 5px solid #033048;
   text-align: center;
   border-radius: 5px;
